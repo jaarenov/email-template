@@ -1,0 +1,362 @@
+
+body, ul {
+  margin: 0;
+  font-family: Georgia;
+}
+
+div, p, span, strong, b, em, i, a, li, td {
+            -webkit-text-size-adjust: none;
+        }
+
+.pre-header {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: #050506;
+  width: 620px;
+  height: 30px;
+}
+.pre-header__text {
+  font-size: 11px;
+  font-weight: 500;
+  color: #797a7a;
+}
+.pre-header__browser-link,
+.pre-header__online-link,
+.pre-header__forward-link {
+  font-size: 11px;
+  color: #ff6000 !important;
+}
+.pre-header__browser span {
+  color: #ff6000;
+}
+.pre-header__block-1 {
+  text-align: left;
+}
+.pre-header__block-2 {
+  text-align: right;
+}
+
+
+
+.email-header {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: #27292a;
+  width: 620px;
+  border-top: solid;
+  border-color: #3d3f40;
+  border-width: 1px;
+}
+.email-header__issue {
+  font-size: 16px;
+  font-style: italic;
+  color: #ffffff;
+  text-align: right;
+}
+.email-header__date {
+  font-size: 22px;
+  color: #ff6000;
+  text-align: right;
+}
+
+
+
+.main {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 0;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  background-color: #f7f3ed;
+  width: 620px;
+}
+.main__img {
+  width: 576px;
+  height: 271px;
+  border: solid;
+  border-color: #d2cfca;
+  border-width: 1px;
+}
+.main__text {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 25px;
+  color: #656363;
+  padding: 19px 0 18px 0;
+}
+
+.main-btn {
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #f7f3ed;
+  width: 620px;
+}
+
+.main-btn__empty {
+  width: 300px;
+  height: 36px;
+}
+.main-btn__btn a {
+  text-decoration: none;
+}
+.main-btn__btn span {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  color: #ffffff;
+
+  display: block;
+  padding-top: 10px;
+  width: 280px;
+  height: 36px;
+  text-align: center;
+  background-color: #f37021;
+}
+
+
+
+.desc {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 42px;
+  padding-bottom: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  background-color: #ffffff;
+  width: 620px;
+  border-bottom: dotted;
+  border-color: #f7f3ed;
+  border-width: 1px;
+}
+.desc__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #1a1a1a;
+}
+.desc__img:first-child,
+.desc__text:first-child,
+.desc__link:first-child  {
+  text-align: left;
+}
+.desc__img:last-child {
+  text-align: right;
+}
+.desc__img img{
+  border: solid;
+  border-color: #d2cfca;
+  border-width: 1px;
+}
+.desc__text {
+  font-size: 12px;
+  line-height: 20px;
+  color: #656363;
+  padding-top: 12px;
+}
+.desc__link a {
+  font-size: 12px;
+  line-height: 20px;
+  color: #f37021;
+  text-decoration: none;
+}
+.desc__title:last-child,
+.desc__text:last-child,
+.desc__link:last-child {
+  padding-left: 10px;
+}
+
+
+
+.gallery__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 0;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  background-color: #ffffff;
+  width: 620px;
+}
+.gallery__title td {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #1a1a1a;
+}
+.gallery__pics {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  background-color: #ffffff;
+  width: 620px;
+}
+.gallery__sub {
+  font-size: 12px;
+  line-height: 30px;
+  color: #656363;
+}
+.gallery__btn {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0;
+  padding-bottom: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  background-color: #ffffff;
+  width: 620px;
+  text-align: center;
+}
+.gallery__btn a {
+  text-decoration: none;
+}
+.gallery__btn span {
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 35px;
+  color: #ffffff;
+
+  display: block;
+  background-color: #666666;
+}
+.gallery__img:nth-child(2),
+.gallery__img:nth-child(3),
+.gallery__img:nth-child(4) {
+  padding-left: 32px;
+}
+.gallery__sub:nth-child(2),
+.gallery__sub:nth-child(3),
+.gallery__sub:nth-child(4) {
+  padding-left: 32px;
+}
+
+
+
+.email-footer {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: #202123;
+  width: 620px;
+}
+.social {
+  text-align: right;
+}
+ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+.email-footer__address {
+  font-size: 12px;
+  line-height: 22px;
+  color: #656363;
+  text-align: right;
+}
+
+.email-footer__info {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0;
+  padding-bottom: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: #202123;
+  width: 620px;
+  border-bottom: solid;
+  border-color: #3d3f40;
+  border-width: 1px;
+}
+.email-footer__copy,
+.email-footer__phone,
+.email-footer__web span {
+  font-size: 12px;
+  color: #656363;
+}
+.email-footer__web,
+.email-footer__phone {
+  text-align: right;
+}
+.email-footer__web a {
+  font-size: 12px;
+  color: #ff6000 !important;
+}
+.email-footer__web span {
+  color: #ff6000;
+}
+.email-footer__web a:first-child {
+  text-decoration: none;
+}
+
+
+
+.unsubscribe {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: #050506;
+  width: 620px;
+  height: 30px;
+}
+.unsubscribe__text {
+  font-size: 11px;
+  line-height: 18px;
+  color: #969696;
+  text-align: center;
+}
+.unsubscribe__text a {
+  font-size: 11px;
+  line-height: 18px;
+  color: #969696 !important;
+  text-decoration: underline;
+}
+.unsubscribe__text span {
+  color: #969696;
+}

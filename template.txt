@@ -1,0 +1,5 @@
+Colors
+
+gray                #797a7a
+gray-darker         #1a1a1a
+orange              #ff6000
